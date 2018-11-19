@@ -6,4 +6,8 @@
     <RootNamespace>TODO_Application</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\KianZhou8005\Week 3\Day 1\IPrintable\IPrintable\IPrintable.csproj" />
+  </ItemGroup>
+
 </Project>

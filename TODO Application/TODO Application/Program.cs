@@ -79,7 +79,7 @@ namespace TODO_Application
                 return;
             }
 
-            listTask[i - 1].ShowState();
+            listTask[i - 1].PrintAllFields();
             PrintEnterKeyMessage();
         }
 
@@ -151,13 +151,13 @@ namespace TODO_Application
                     if (flag)
                     {
                         Console.Write($"{i + 1} - ");
-                        listTask[i].ShowState();
+                        listTask[i].PrintAllFields();
                     }
                     else
                     {
                         if (listTask[i].IsComplete)
                         {
-                            listTask[i].ShowState();
+                            listTask[i].PrintAllFields();
                         }
                     }
                                   
